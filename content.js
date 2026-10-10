@@ -49,7 +49,7 @@ window.LEVELS = [
   {
     depth: '50 m',
     title: 'Hash dan nonce',
-    summary: 'Cara kerja lomba menambang, dan satu tambang mini untuk Anda coba.',
+    summary: 'Cara kerja lomba menambang, dan satu tambang mini untuk kamu coba.',
     demo: 'miner',
     sections: [
       {
@@ -76,7 +76,7 @@ window.LEVELS = [
     ],
     quiz: [
       {
-        q: 'Anda mengubah satu huruf pada data blok. Apa yang terjadi pada hash-nya?',
+        q: 'Kamu mengubah satu huruf pada data blok. Apa yang terjadi pada hash-nya?',
         options: ['Hampir sama, hanya satu karakter berubah', 'Berubah total', 'Tidak berubah', 'Menjadi lebih pendek'],
         answer: 1,
         why: 'Perubahan sekecil apa pun menghasilkan hash yang sama sekali berbeda.'
@@ -198,7 +198,7 @@ window.LEVELS = [
   {
     depth: '340 m',
     title: 'Hitung untung rugi',
-    summary: 'Listrik, harga koin, dan titik impas, dengan kalkulator yang bisa Anda isi sendiri.',
+    summary: 'Listrik, harga koin, dan titik impas, dengan kalkulator yang bisa kamu isi sendiri.',
     demo: 'calc',
     sections: [
       {
@@ -251,21 +251,21 @@ window.LEVELS = [
       {
         h: 'Wallet dan seed phrase',
         p: [
-          'Seed phrase, yaitu 12 sampai 24 kata, adalah kunci seluruh dompet. Siapa pun yang punya kata-kata itu bisa mengosongkan dompet Anda dari mana saja.',
+          'Seed phrase, yaitu 12 sampai 24 kata, adalah kunci seluruh dompet. Siapa pun yang punya kata-kata itu bisa mengosongkan dompet kamu dari mana saja.',
           'Tulis di kertas dan simpan offline. Jangan difoto, jangan diketik di situs mana pun, jangan dikirim ke siapa pun, termasuk orang yang mengaku admin atau layanan pelanggan.'
         ]
       },
       {
         h: 'Penipuan yang sering muncul',
         p: [
-          'Cloud mining dengan janji profit harian tetap, ajakan menggandakan koin, grup yang meminta Anda mengirim koin lebih dulu, dan situs yang menyerupai pool atau bursa resmi. Janji hasil pasti di pasar yang harganya naik turun adalah tanda bahaya.'
+          'Cloud mining dengan janji profit harian tetap, ajakan menggandakan koin, grup yang meminta kamu mengirim koin lebih dulu, dan situs yang menyerupai pool atau bursa resmi. Janji hasil pasti di pasar yang harganya naik turun adalah tanda bahaya.'
         ]
       },
       {
         h: 'Miner palsu',
         p: [
-          'Unduh software hanya dari repositori resmi proyeknya, dan cocokkan checksum rilis kalau tersedia. Antivirus sering menandai miner asli sebagai ancaman, jadi peringatan itu tidak otomatis berarti sebuah file aman atau berbahaya. Pakai sumber yang bisa Anda verifikasi.',
-          'Pemakaian CPU atau GPU yang tinggi tanpa sebab di komputer biasa bisa jadi tanda miner yang tidak Anda pasang.'
+          'Unduh software hanya dari repositori resmi proyeknya, dan cocokkan checksum rilis kalau tersedia. Antivirus sering menandai miner asli sebagai ancaman, jadi peringatan itu tidak otomatis berarti sebuah file aman atau berbahaya. Pakai sumber yang bisa kamu verifikasi.',
+          'Pemakaian CPU atau GPU yang tinggi tanpa sebab di komputer biasa bisa jadi tanda miner yang tidak kamu pasang.'
         ]
       },
       {
@@ -277,8 +277,8 @@ window.LEVELS = [
     ],
     quiz: [
       {
-        q: 'Siapa yang boleh mengetahui seed phrase Anda?',
-        options: ['Admin pool', 'Layanan pelanggan bursa', 'Hanya Anda', 'Teman dekat'],
+        q: 'Siapa yang boleh mengetahui seed phrase kamu?',
+        options: ['Admin pool', 'Layanan pelanggan bursa', 'Hanya kamu', 'Teman dekat'],
         answer: 2,
         why: 'Seed phrase memberi akses penuh ke dompet. Layanan resmi tidak pernah memintanya.'
       },
@@ -289,7 +289,7 @@ window.LEVELS = [
         why: 'Hasil tetap di pasar yang berubah-ubah hampir selalu berarti penipuan atau skema piramida.'
       },
       {
-        q: 'Anda salah memasukkan satu karakter pada alamat payout. Apa yang terjadi?',
+        q: 'Kamu salah memasukkan satu karakter pada alamat payout. Apa yang terjadi?',
         options: ['Pool otomatis memperbaikinya', 'Transaksi bisa dibatalkan lewat bank', 'Koin bisa hilang karena transaksi tidak bisa dibatalkan', 'Koin kembali dalam 24 jam'],
         answer: 2,
         why: 'Transaksi blockchain bersifat final, jadi alamat harus benar sejak awal.'
@@ -304,7 +304,7 @@ window.LEVELS = [
       {
         h: 'Algoritma dan koin',
         p: [
-          'Mulai dari alat yang Anda punya, lalu cari koin dengan algoritma yang cocok. Cek apakah hasilnya bisa dijual di bursa yang likuid, apakah proyeknya masih dirawat, dan seberapa besar komunitas penambangnya.'
+          'Mulai dari alat yang kamu punya, lalu cari koin dengan algoritma yang cocok. Cek apakah hasilnya bisa dijual di bursa yang likuid, apakah proyeknya masih dirawat, dan seberapa besar komunitas penambangnya.'
         ]
       },
       {
@@ -338,7 +338,7 @@ window.LEVELS = [
         q: 'Skenario mana yang perlu dihitung sebelum membeli alat?',
         options: ['Harga koin naik 10 kali lipat', 'Harga koin turun 50 persen', 'Harga alat turun', 'Tarif listrik gratis'],
         answer: 1,
-        why: 'Skenario terburuk menunjukkan apakah Anda masih sanggup menanggungnya.'
+        why: 'Skenario terburuk menunjukkan apakah kamu masih sanggup menanggungnya.'
       },
       {
         q: 'Apa langkah awal yang paling masuk akal?',

@@ -3,36 +3,64 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MINER ACADEMY</title>
-  <meta name="description" content="Belajar mining dari hash pertama sampai hitungan listrik. Tujuh level dengan kuis, tambang mini di browser, dan kalkulator untung rugi.">
-  <meta name="theme-color" content="#1e2a31">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23f0b400'/%3E%3Cpath d='M6 25V7h4l6 10 6-10h4v18h-4V14l-6 10-6-10v11z' fill='%23101a1f'/%3E%3C/svg%3E">
+  <title>Miner Academy | High class to get cuan</title>
+  <meta name="description" content="Kelas mining crypto dari dasar sampai expert, dibimbing langsung oleh mentor. Mulai gratis lewat 7 modul pengantar, lanjutkan di VVIP membership.">
+  <meta name="theme-color" content="#0B1324">
+  <meta property="og:title" content="Miner Academy | High class to get cuan">
+  <meta property="og:description" content="Kelas mining crypto dari dasar sampai expert, dibimbing langsung oleh mentor.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230B1324'/%3E%3Cpath d='M9 7h14l5 6-12 13L4 13z' fill='%23F4B740'/%3E%3Cpath d='M4 13h24M12 13l4-6 4 6M12 13l4 13 4-13' stroke='%230B1324' stroke-width='1.5' fill='none' stroke-linejoin='round'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <a class="sr" href="#app">Lompat ke isi</a>
+  <a class="skip" href="#app">Lompat ke isi</a>
+
   <header class="site-header">
-    <a class="wordmark" href="#/" aria-label="MINER ACADEMY, beranda"><b>M</b>INER ACADEMY</a>
-    <nav class="site-nav" aria-label="Utama">
-      <a href="#/">Kurikulum</a>
-      <a href="#/level/1">Tambang mini</a>
-      <a href="#/kalkulator">Kalkulator</a>
-      <a href="#/membership">Membership</a>
-    </nav>
+    <div class="container nav-inner">
+      <a class="brand" href="#/" aria-label="Miner Academy, beranda">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M9 7h14l5 6-12 13L4 13z" fill="#F4B740"/><path d="M4 13h24M12 13l4-6 4 6M12 13l4 13 4-13" stroke="#0B1324" stroke-width="1.5" fill="none" stroke-linejoin="round"/></svg>
+        <span>Miner Academy</span>
+      </a>
+      <nav class="menu" id="menu" aria-label="Utama">
+        <a href="#/kurikulum" data-nav="kurikulum">Kurikulum</a>
+        <a href="#/tools" data-nav="tools">Tools</a>
+        <a href="#/membership" data-nav="membership">Membership</a>
+        <a href="#/faq" data-nav="faq">FAQ</a>
+        <a class="btn btn-gold btn-sm menu-cta" href="#/membership">Join VVIP</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span class="sr">Buka menu</span>
+      </button>
+    </div>
   </header>
 
-  <div class="layout">
-    <aside id="gauge" aria-label="Peta level"></aside>
-    <main id="app">
-      <noscript><p>MINER ACADEMY membutuhkan JavaScript untuk menjalankan tambang mini, kuis, dan kalkulator.</p></noscript>
-    </main>
-  </div>
+  <main id="app">
+    <noscript><p class="container">Miner Academy membutuhkan JavaScript untuk menampilkan modul, tambang mini, dan kalkulator.</p></noscript>
+  </main>
 
   <footer class="site-footer">
-    <p>Materi ini untuk belajar dan bukan saran investasi. Harga koin dan hasil mining berubah-ubah, dan alat mining bisa merugi.</p>
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="#/">
+          <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M9 7h14l5 6-12 13L4 13z" fill="#F4B740"/><path d="M4 13h24M12 13l4-6 4 6M12 13l4 13 4-13" stroke="#0B1324" stroke-width="1.5" fill="none" stroke-linejoin="round"/></svg>
+          <span>Miner Academy</span>
+        </a>
+        <p class="footer-tag">High class to get cuan. Kelas mining crypto dari dasar sampai expert.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="#/kurikulum">Kurikulum</a>
+        <a href="#/kalkulator">Kalkulator</a>
+        <a href="#/membership">Membership</a>
+        <a href="#/faq">FAQ</a>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <p>Materi di situs ini untuk edukasi dan bukan saran investasi. Hasil mining tidak dijamin dan bergantung pada harga koin, tingkat kesulitan jaringan, tarif listrik, serta perangkat yang dipakai.</p>
+      <p>&copy; 2026 Miner Academy</p>
+    </div>
   </footer>
 
   <script src="config.js"></script>
