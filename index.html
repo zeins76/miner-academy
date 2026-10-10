@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MINER ACADEMY</title>
+  <meta name="description" content="Belajar mining dari hash pertama sampai hitungan listrik. Tujuh level dengan kuis, tambang mini di browser, dan kalkulator untung rugi.">
+  <meta name="theme-color" content="#1e2a31">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23f0b400'/%3E%3Cpath d='M6 25V7h4l6 10 6-10h4v18h-4V14l-6 10-6-10v11z' fill='%23101a1f'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="sr" href="#app">Lompat ke isi</a>
+  <header class="site-header">
+    <a class="wordmark" href="#/" aria-label="MINER ACADEMY, beranda"><b>M</b>INER ACADEMY</a>
+    <nav class="site-nav" aria-label="Utama">
+      <a href="#/">Kurikulum</a>
+      <a href="#/level/1">Tambang mini</a>
+      <a href="#/kalkulator">Kalkulator</a>
+      <a href="#/membership">Membership</a>
+    </nav>
+  </header>
+
+  <div class="layout">
+    <aside id="gauge" aria-label="Peta level"></aside>
+    <main id="app">
+      <noscript><p>MINER ACADEMY membutuhkan JavaScript untuk menjalankan tambang mini, kuis, dan kalkulator.</p></noscript>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <p>Materi ini untuk belajar dan bukan saran investasi. Harga koin dan hasil mining berubah-ubah, dan alat mining bisa merugi.</p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="content.js"></script>
+  <script src="sha256.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
